@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.txt-heading {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#location {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.geo-location-detail {
+    margin-bottom: 20px;
+}
+
+.geo-location-detail .row {
+    margin-bottom: 10px;
+}
+
+.geo-location-detail .form-label {
+    font-weight: bold;
+}
+
+#map {
+    height: 400px;
+    border-radius: 8px;
+}
